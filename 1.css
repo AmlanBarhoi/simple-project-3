@@ -1,0 +1,273 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+/*part-1*/
+.part-1 {
+    height:700px;
+    background-image:url("img/architect.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.a1 {
+    display:flex;
+    position:absolute;
+    top:320px;
+    left:650px;
+}
+
+.a1 .logo {
+    font-weight:bolder;
+    color:white;
+    font-size:40px;
+    background-color:black;
+    text-align:center;
+    padding:10px 10px;
+    opacity:0.8;
+}
+
+.a1 .text {
+    font-size:40px;
+    color:white;
+    font-weight:light;
+    margin-left:20px;
+    padding:10px 0;
+}
+/*part-1*/
+
+/*part-2*/
+.a2 {
+    border:1px soli;
+    margin-left:25px;
+    margin-right:25px;
+}
+.a2 p {
+    margin-top:80px;
+    font-size:30px;
+}
+.a2 p::after {
+    display:block;
+    content: "";
+    height:1px;
+    background-color:rgb(201, 192, 192);
+    margin-top:30px;
+}
+
+.a3 {
+ 
+    margin-left:25px;
+    margin-right:25px;
+    margin-top:20px;
+}
+.box {
+  
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.box-1{
+
+    width:345px;
+    height:230px;
+    margin:10px;
+   background-repeat:no-repeat;
+   background-position:center;
+   background-size:cover;
+
+}
+.box-1 p {
+    color:white;
+    background-color:black;
+    width:150px;
+    padding:10px;
+    font-weight:bold;
+}
+.img-1 {
+    background-image:url('img/house5.jpg');
+}
+
+.img-2 {
+    background-image:url('img/house2.jpg');
+} 
+
+.img-3 {
+    background-image:url('img/house3.jpg');
+} 
+
+.img-4 {
+    background-image:url('img/house4.jpg');
+} 
+
+.img-5 {
+    background-image:url('img/house2.jpg');
+} 
+
+.img-6 {
+    background-image:url('img/house5.jpg');
+} 
+
+.img-7 {
+    background-image:url('img/house4.jpg');
+} 
+
+.img-8 {
+    background-image:url('img/house3.jpg');
+}  
+/*part-2*/
+/*part-3*/
+.part-3 {
+    margin-left:25px;
+    margin-right:25px;
+}
+.part-3 .about {
+margin-top:80px;
+font-size:30px;
+}
+.part-3 .about::after {
+    content:"";
+    display:block;
+    height:1px;
+    background-color:rgb(201, 192, 192);
+    margin-top:25px;
+}
+
+.part-3 .text {
+font-size:18px;
+margin-top:10px;
+}
+
+/*part-3*/
+/*part-4*/
+.part-4 {
+    margin-left:25px;
+    margin-right:25px;
+}
+.contact {
+    display:flex;
+    margin-top:40px;
+}
+.contact-1, .contact-2, .contact-3, .contact-4 {
+    width:350px;
+    height:460px;
+    margin:10px;
+    position:relative;
+}
+.contact .img {
+    height:250px;
+    
+}
+.img img {
+    width:100%;
+    height:100%;
+}
+.grayscale {
+    filter:grayscale(100%);
+}
+.name {
+    margin-top:12px;
+font-size:20px;
+}
+.profession {
+color:rgb(187, 185, 185);
+font-size:18px;
+margin-top:18px;
+}
+.context {
+font-size:18px;
+margin-top:18px;
+}
+a {
+    text-decoration:none;
+    background-color:rgb(248, 244, 244);
+    color:black;
+    display:block;
+    text-align:center;
+    padding:10px 0;
+    margin-top:12px;
+}
+a:hover {
+    background-color:rgb(187, 185, 185);
+}
+/*part-4*/
+/*part-5*/
+.part-5 {
+    margin-left:25px;
+    margin-right:25px;
+}
+
+.part-5 .contact {
+   margin-top:80px;
+   font-size:20px;
+}
+.part-5 .contact::after {
+    content:"";
+    display:block;
+    height:1px;
+    background-color:rgb(201, 192, 192);
+    margin-top:25px;
+}
+.part-5 .text {
+   margin-top:30px;
+   font-size:18px;
+}
+
+.part-5 input[type="text"] {
+    display:block;
+    margin-top:20px;
+    height:40px;
+    width:100%;
+    color:rgb(167, 162, 162);
+    padding-left:10px;
+}
+.button-1 {
+    color:white;
+    background-color:black;
+    padding:10px 5px;
+    width:170px;
+    text-align:center;
+    margin-top:35px;
+}
+.button-1:hover {
+    background-color:rgb(233, 223, 223);
+    color:black;
+}
+/*part-5*/
+/*part-6*/
+
+.part-6 {
+    margin-left:25px;    
+    margin-right:25px;    
+    margin-top:50px;    
+}
+.part-6 img {
+    width:100%;
+    height:600px;
+}
+/*part-6*/
+/*part-7*/
+.part-7 {
+    background-color:black;
+    height:100px;
+    color:white;
+    text-align:center;
+  padding:40px 0;
+  font-size:18px;
+}
+p,a {
+    display:flex;
+}
+.part-7 a {
+    background-color:black;
+    color:white;
+    text-decoration-line:underline;
+    margin-top:-10px;
+    margin-left:5px;
+}
+.part-7 p {
+    margin-left:700px;
+}
+/*part-7*/
+
+
